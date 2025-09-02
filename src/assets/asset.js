@@ -20,5 +20,15 @@ import blogsc2 from './devblog2.png'
 import blogsc3 from './devblog3.png'
 import logo1 from './logo.png'
 import alternativeLogo from './logo2.png'
+import resume from './resume.pdf'
 
 export const images={bannerBG,myimg1,myimg2,html,css,javascript,tailwindcss,react,express,mongo,firebase,subbox1,subbox2,subbox3,recipesc1,recipesc2,recipesc3,blogsc1,blogsc2,blogsc3,logo1,alternativeLogo}
+
+
+export const pdf={resume} 
+
+
+
+
+
+

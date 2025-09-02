@@ -15,17 +15,17 @@ const ContactInfo = () => {
 
         <div className="flex items-center gap-4 bg-blue-400/10 hover:bg-blue-400/20 transition rounded-lg p-4 text-white">
           <MdPhone className="text-blue-400 text-xl" />
-          <span>+880 1331726414</span>
+          <span>+880 1870921303</span>
         </div>
 
         <div className="flex items-center gap-4 bg-blue-400/10 hover:bg-blue-400/20 transition rounded-lg p-4 text-white">
           <FaLinkedin className="text-blue-400 text-xl" />
-          <a href='https://www.linkedin.com/in/dip-chondo-2b871b360/' target='_blank'>linkedin.com</a>
+          <a href='https://www.linkedin.com/in/dipchondo/' target='_blank'>linkedin.com</a>
         </div>
 
         <div className="flex items-center gap-4 bg-blue-400/10 hover:bg-blue-400/20 transition rounded-lg p-4 text-white">
           <BsWhatsapp className="text-blue-400 text-xl" />
-          <span>+880 1331726414</span>
+          <span>+880 1870921303</span>
         </div>
 
         <div className="flex items-center gap-4 bg-blue-400/10 hover:bg-blue-400/20 transition rounded-lg p-4 text-white">

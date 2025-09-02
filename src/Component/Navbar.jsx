@@ -1,6 +1,6 @@
 import React from 'react';
 import { images } from '../assets/asset';
-
+import {pdf} from '../assets/asset'
 const Navbar = () => {
 
 
@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><a className='font-semibold text-sm md:text-xl' href='#contact_me'>Contact Me</a></li></>
 
     return (
-        <div className="navbar bg-gray-800/70 ">
+        <div className="navbar bg-gray-800/70 lg:px-[5rem] ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +35,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-blue-600 rounded-none">Resume</a>
+                <a href={pdf.resume} download className="btn bg-blue-600 rounded-none">Resume</a>
             </div>
         </div>
     );
