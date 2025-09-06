@@ -11,11 +11,14 @@
 }
 
 
-.jakarta-font{
+.jakarta-font {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
-} 
+}
 
+:root {
+  --primary-color: #f03265;
+}

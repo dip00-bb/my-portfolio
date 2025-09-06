@@ -89,7 +89,7 @@ const FullProjectDetails = () => {
                         href={live_link}
                         target="_blank"
                         rel="noreferrer"
-                        className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold"
+                        className="bg-[var(--primary-color)] hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold"
                     >
                         🌐 Live Site
                     </a>
@@ -98,7 +98,7 @@ const FullProjectDetails = () => {
                             href={frontend_repo}
                             target="_blank"
                             rel="noreferrer"
-                            className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold"
+                            className="bg-[var(--primary-color)] hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold"
                         >
                             💻 Frontend Code
                         </a>
@@ -108,7 +108,7 @@ const FullProjectDetails = () => {
                             href={backend_repo}
                             target="_blank"
                             rel="noreferrer"
-                            className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold hidden"
+                            className="bg-[var(--primary-color)] hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold hidden"
                         >
                             🖥️ Backend Code
                         </a>
@@ -127,7 +127,7 @@ const FullProjectDetails = () => {
             <div className="text-center">
                 <Link
                     to="/"
-                    className="inline-block mt-6 bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded text-white font-semibold"
+                    className="inline-block mt-6 bg-[var(--primary-color)] hover:bg-blue-700 px-6 py-2 rounded text-white font-semibold"
                 >
                     ← Back to Home
                 </Link>

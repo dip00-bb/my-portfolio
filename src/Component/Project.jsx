@@ -22,7 +22,7 @@ const Project = () => {
 
   return (
     <div id='project' className="space-y-12 md:max-w-9/12 mx-auto">
-      <p className='text-4xl font-extrabold mb-4 text-blue-600 text-center lg:mb-10'>My Projects</p>
+      <p className='text-4xl font-extrabold mb-4 text-[var(--primary-color)] text-center lg:mb-10'>My Projects</p>
 
 
       {

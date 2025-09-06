@@ -87,7 +87,7 @@ const ProjectDetails = ({
 
             <button
               onClick={() => setIsModalOpen(true)}
-              className="flex items-center justify-center border-1 border-blue-600 w-8 h-8 rounded-full cursor-pointer"
+              className="flex items-center justify-center border-1 border-[var(--primary-color)] w-8 h-8 rounded-full cursor-pointer"
             >
               <FaInfo />
             </button>
@@ -149,7 +149,7 @@ const ProjectDetails = ({
               </div>
             )}
           </div>
-          <Link to={`projectDetails/${id}`}  className="btn bg-blue-600 rounded-none w-fit">View Details</Link>
+          <Link to={`projectDetails/${id}`}  className="btn bg-[var(--primary-color)] rounded-none w-fit">View Details</Link>
         </div>
 
       </div>

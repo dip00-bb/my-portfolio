@@ -29,7 +29,7 @@ const Skills = () => {
 
   return (
     <div id='skill' className=" text-white flex flex-col items-center px-4 pl-8 md:pl-0">
-      <h2 data-aos-duration='500' className="text-4xl font-extrabold mb-4 text-blue-600 lg:mb-10">My Skills</h2>
+      <h2 data-aos-duration='500' className="text-4xl font-extrabold mb-4 text-[var(--primary-color)] lg:mb-10">My Skills</h2>
       <p  className="max-w-2xl text-center mb-10  text-sm lg:text-xl font-semibold">
         I work with modern web technologies to build fast, responsive, and scalable web applications.
         Click on any technology below to learn more about what I use and how I use it.

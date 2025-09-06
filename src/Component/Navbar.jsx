@@ -35,7 +35,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href={pdf.resume} download className="btn bg-blue-600 rounded-none">Resume</a>
+                <a href={pdf.resume} download className="btn bg-[var(--primary-color)] rounded-none">Resume</a>
             </div>
         </div>
     );
